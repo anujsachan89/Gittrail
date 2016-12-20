@@ -9,7 +9,7 @@ public class StopWatch
 	{
 	StartTime = System.currentTimeMillis();
 	}
-	// Stop Method		
+	// Stop Method/		
 		public void stop()
 		{
 		StopTime=System.currentTimeMillis();
@@ -27,10 +27,7 @@ public class StopWatch
 						Scanner sc = new Scanner(System.in);
 						System.out.println("Please Choose your option: \n1.Start \n2. Stop");
 						int num=sc.nextInt();
-						w.start();
-						/*System.out.println("Please Choose your option:Stop:");	
-						int num1=sc.nextInt();
-						w.start(num1);	*/				
+						w.start();			
 						System.out.println("Time is Started\nPlease Enter 2 for Stopping the clock: ");
 						int num2=sc.nextInt();
 						w.stop();
